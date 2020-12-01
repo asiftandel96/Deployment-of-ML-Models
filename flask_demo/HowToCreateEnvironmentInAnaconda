@@ -1,0 +1,16 @@
+Step 1:
+Create A New Environment Using Anaconda Prompt
+
+conda create -n flask_demo python==3.6.9
+
+Step 2:
+Check all the environment which we have created so far
+
+conda env list
+
+Activate the newly created environment in Anaconda prompt
+
+Creating the requirement file
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
